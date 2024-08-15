@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commands</title>
+</head>
+<body>
+    <header><a href="./index.html">Mr.VOICEVOXホーム</a><br><a href="../../index.html">製作者ホーム</a></header>
+    <h2>一般コマンド</h2>
+    <h3>/ping</h3>
+    botにPingを送ります。結果は30秒後に削除されます。
+    <h3>/version</h3>
+    botのバージョン情報を送信します。結果は30秒後に削除されます。
+    <h3>/help</h3>
+    このページのリンクを送信します。
+    <h3>/author</h3>
+    製作者を表示します。結果は30秒後に削除されます。
+    <h3>/dice &lt;num&gt; &lt;side&gt; [success]</h3>
+    numDsideのダイスを振ります。success以下で成功判定。結果は120秒後に削除されます。
+    <h3>/sdice &lt;num&gt; &lt;side&gt; [success]</h3>
+    diceコマンドの結果をDMで送信します。
+    <h3>/prime &lt;x&gt;</h3>
+    xを素因数分解した結果を返します。結果は30秒後に削除されます。
+    <h3>/nick &lt;name&gt;</h3>
+    使用したユーザーのニックネームを変更します。
+    <h2>読み上げ関連</h2>
+    <h3>/vc join</h3>
+    読み上げを参加させます。読み上げさせるチャンネルはコマンドを使用したチャンネルです。
+    <h3>/vc leave</h3>
+    読み上げを退出させます。
+    <h3>/vc setspeaker &lt;id&gt;</h3>
+    個人で話者を設定します。idは/vc speakersを参照してください。
+    <h3>/vc setspeed &lt;speed&gt;</h3>
+    個人で読み上げ速度を設定します。
+    <h3>/vc speakers &lt;name&gt;</h3>
+    対応している話者を検索し、idとの対応を出力します。結果は10秒後に削除されます。
+    <h2>経済関連</h2>
+    <h3>/eco openaccount</h3>
+    口座を開設します。
+    <h3>/eco sendmoney &lt;user&gt; &lt;amount&gt;</h3>
+    userにamountの送金をします。
+    <h3>/eco balance</h3>
+    自身の所持金を確認します。
+</body>
+</html>
